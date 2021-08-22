@@ -70,7 +70,8 @@ function draw() {
   background(56,44,44); 
  
   imageMode(CENTER);
-  // write image() to display the polygon image 
+  // write image() to display the polygon image
+  image(rock_img,ball.position.x,ball.position.y,40,40)
   //use the same x and y position as ball
   
 
